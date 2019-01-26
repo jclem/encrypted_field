@@ -5,7 +5,7 @@ defmodule EncryptedField.EncryptionTest do
   import EncryptedField.Encryption
 
   test ".encrypt encrypts a string" do
-    assert encrypt("foo") !== "foo"
+      assert encrypt("foo") !== "foo"
   end
 
   test ".decrypt decrypts a string" do
